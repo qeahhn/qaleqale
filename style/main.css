@@ -3,9 +3,7 @@ html {
 }
 
 body {
-  background: 'url('.img/moonlight.jpg');
-  
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', best-soulmate;
   margin: 0;
 }
 
@@ -111,7 +109,7 @@ body {
 }
 
 .six .hat {
-  right: 0%;
+  right: 40%;
   position: absolute;
   /* transform: scale(0.1); */
   top: -30%;
