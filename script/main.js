@@ -7,13 +7,13 @@ window.addEventListener('load', () => {
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
         confirmButtonText: 'Iyooo',
-        confirmButtonText: 'mestilaaa',
+        cancelButtonText: 'mestilaaa',
     }).then((result) => {
         if (result.isConfirmed) {
             document.querySelector('.song').play();
             animationTimeline();
-        } else {result.isConfirmed) {
-            document.querySelector('.song).play();
+        } else (result.isConfirmed) {
+            document.querySelector('.song').play();
             animationTimeline();
         }
     });
