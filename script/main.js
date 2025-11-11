@@ -7,12 +7,13 @@ window.addEventListener('load', () => {
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
         confirmButtonText: 'Iyooo',
-        cancelButtonText: 'Nda',
+        confirmButtonText: 'mestilaaa',
     }).then((result) => {
         if (result.isConfirmed) {
             document.querySelector('.song').play();
             animationTimeline();
-        } else {
+        } else {result.isConfirmed) {
+            document.querySelector('.song).play();
             animationTimeline();
         }
     });
@@ -199,7 +200,7 @@ const animationTimeline = () => {
         "-=2"
     )
     .from(".hat", 0.5, {
-        x: -100,
+        x: 50,
         y: 350,
         rotation: -180,
         opacity: 0,
