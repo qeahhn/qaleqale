@@ -3,8 +3,10 @@ html {
 }
 
 body {
-  background-image: url('img/moonlight.jpg');
-  
+  background-image: url('../img/moonlight.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
   font-family: 'poppins', sans-serif;
   margin: 0;
 }
