@@ -12,7 +12,8 @@ window.addEventListener('load', () => {
         if (result.isConfirmed) {
             document.querySelector('.song').play();
             animationTimeline();
-        } else
+        } else (result.iscanceled) {
+          document.querySelector('.song').play();  
             animationTimeline();
         }
     });
