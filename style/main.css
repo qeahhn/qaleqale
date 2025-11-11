@@ -3,6 +3,8 @@ html {
 }
 
 body {
+  background: 'url('.img/cat.jpg');
+}
   font-family: 'Patrick Hand', cursive;
   margin: 0;
 }
