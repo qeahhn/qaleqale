@@ -3,11 +3,7 @@ html {
 }
 
 body {
-  background-image: url('../img/cat.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Patrick Hand', cursive;
   margin: 0;
 }
 
@@ -113,10 +109,10 @@ body {
 }
 
 .six .hat {
-  right: 40%;
+  left: 41.5%;
   position: absolute;
   /* transform: scale(0.1); */
-  top: -30%;
+  top: -35%;
   width: 80px;
 }
 
@@ -232,25 +228,25 @@ body {
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
-    right: 50%;
+    left: 40%;
   }
 }
 
 @media screen and (max-height: 800px) {
   .six .hat {
-    right: 50%;
+    left: 37%;
   }
 }
 
 @media screen and (max-height: 700px) {
   .six .hat {
-    right: 50%;
+    left: 32%;
   }
 }
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
-    right: 50%;
+    left: 32%;
   }
 }
 
