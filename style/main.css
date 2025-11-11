@@ -3,6 +3,8 @@ html {
 }
 
 body {
+  background-image: url('img/moonlight.jpg');
+  
   font-family: 'poppins', sans-serif;
   margin: 0;
 }
