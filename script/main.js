@@ -7,7 +7,7 @@ window.addEventListener('load', () => {
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
         confirmButtonText: 'Iyoo',
-        cancelButtonText: 'nd(teda lagu)',
+        cancelButtonText: 'nda',
     }).then((result) => {
         if (result.isConfirmed) {
             document.querySelector('.song').play();
