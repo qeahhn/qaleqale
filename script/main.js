@@ -1,3 +1,28 @@
+// Load Patrick Hand font from Google Fonts and apply it to the main UI elements
+(function applyPatrickHandFont() {
+    const href = 'https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap';
+    if (!document.querySelector(`link[href="${href}"]`)) {
+        const link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = href;
+        document.head.appendChild(link);
+    }
+
+    // Add a small stylesheet to prefer Patrick Hand for the main UI elements.
+    // Use a scoped selector list rather than a global * to avoid surprising layout changes.
+    const style = document.createElement('style');
+    style.id = 'patrick-hand-font-style';
+    style.innerHTML = `
+        html, body,
+        .container, .wish-hbd, .hbd-chatbox, .fake-btn, .wish, .wish h5,
+        .idea-1, .idea-2, .idea-3, .idea-4, .idea-5, .idea-6, .nine,
+        .profile-picture, .last-smile {
+            font-family: 'Patrick Hand', cursive !important;
+        }
+    `;
+    document.head.appendChild(style);
+})();
+
 // trigger to play music in the background with sweetalert
 window.addEventListener('load', () => {
     // First warning with the requested sentence, shown before the main title scene
