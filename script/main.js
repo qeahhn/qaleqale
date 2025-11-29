@@ -1,7 +1,7 @@
 // trigger to play music in the background with sweetalert
 window.addEventListener('load', () => {
     Swal.fire({
-        title: 'dia mau dengar laguuu??',
+        title: 'dia mau dengar laguuu??'(off dulu focus mode aaa),
         icon: 'warning',
         showCancelButton: true,
         confirmButtonColor: '#3085d6',
