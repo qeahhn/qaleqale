@@ -9,13 +9,9 @@ window.addEventListener('load', () => {
         confirmButtonText: 'Iyoo',
         cancelButtonText: 'gas',
     }).then((result) => {
-        if (result.isConfirmed) {
-            document.querySelector('.song').play();
-            animationTimeline();
-        } else (result.isCanceled) {
-                document.querySelector('.song').play();
-            animationTimeline();
-        }
+        // Play music and start animation regardless of which button was clicked
+        document.querySelector('.song').play();
+        animationTimeline();
     });
 });
 
