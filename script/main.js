@@ -1,17 +1,24 @@
 // trigger to play music in the background with sweetalert
 window.addEventListener('load', () => {
+    // First warning with the requested sentence, shown before the main title scene
     Swal.fire({
-        title: 'laguuu??',
         icon: 'warning',
-        showCancelButton: true,
-        confirmButtonColor: '#3085d6',
-        cancelButtonColor: '#d33',
-        confirmButtonText: 'Iyoo',
-        cancelButtonText: 'gas',
-    }).then((result) => {
-        // Play music and start animation regardless of which button was clicked
-        document.querySelector('.song').play();
-        animationTimeline();
+        text: 'maw,off dulu focus mode aaa,takut teda bunyiii'  
+    }).then(() => {
+        // After the first warning, show the original title scene
+        Swal.fire({
+            title: 'laguuu??',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Iyoo',
+            cancelButtonText: 'gas',
+        }).then((result) => {
+            // Play music and start animation regardless of which button was clicked
+            document.querySelector('.song').play();
+            animationTimeline();
+        });
     });
 });
 
