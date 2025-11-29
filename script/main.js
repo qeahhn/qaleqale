@@ -1,18 +1,18 @@
 // trigger to play music in the background with sweetalert
 window.addEventListener('load', () => {
     Swal.fire({
-        title: 'dia mau dengar laguuu??(off dulu focus mode aaa)',
+        title: 'laguuu??',
         icon: 'warning',
         showCancelButton: true,
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
         confirmButtonText: 'Iyoo',
-        cancelButtonText: 'nda',
+        cancelButtonText: 'gas',
     }).then((result) => {
         if (result.isConfirmed) {
             document.querySelector('.song').play();
             animationTimeline();
-        } else (result.isConfirmed) {
+        } else (result.isCanceled) {
                 document.querySelector('.song').play();
             animationTimeline();
         }
