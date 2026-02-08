@@ -28,7 +28,7 @@ window.addEventListener('load', () => {
     // First warning with the requested sentence, shown before the main title scene
     Swal.fire({
         icon: 'warning',
-        text: 'maw,off dulu focus mode aaa,takut teda bunyiii'  
+        text: 'crystall,off focus mode kejap arhh,takut tiada bunyii'  
     }).then(() => {
         // After the first warning, show the original title scene
         Swal.fire({
@@ -37,8 +37,8 @@ window.addEventListener('load', () => {
             showCancelButton: true,
             confirmButtonColor: '#3085d6',
             cancelButtonColor: '#d33',
-            confirmButtonText: 'Iyoo',
-            cancelButtonText: 'gas',
+            confirmButtonText: 'Iyaa',
+            cancelButtonText: 'lets goo',
         }).then((result) => {
             // Play music and start animation regardless of which button was clicked
             document.querySelector('.song').play();
