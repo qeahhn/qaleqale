@@ -28,7 +28,7 @@ window.addEventListener('load', () => {
     // First warning with the requested sentence, shown before the main title scene
     Swal.fire({
         icon: 'warning',
-        text: 'crystall,off focus mode kejap arhh,takut tiada bunyii'  
+        text: 'crystal,off focus mode kejap arhh,takut tiada bunyii'  
     }).then(() => {
         // After the first warning, show the original title scene
         Swal.fire({
